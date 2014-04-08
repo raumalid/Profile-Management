@@ -1,0 +1,523 @@
+@import url(http://fonts.googleapis.com/css?family=Droid+Sans:400,700);
+
+body{
+    font-size:14px;
+    
+}
+
+a:link{ color: #333; }
+
+a:visited{ color: #333; }
+
+a:hover, a:focus{ color: #333;	text-decoration:none; }
+
+#address{
+
+    margin-left: 600px;
+    margin-top:-80px;
+}
+#border{
+
+    height:1000px;
+    width:220px;
+    z-index: 500;
+    border-right: 1px solid #ccc;
+}
+.cf{
+    margin-left: 980px;
+    zoom: 1;
+}
+.company{
+    border: 1px solid #ccc;
+    width:1000px;
+    margin-left: 95px;
+    margin-top: 30px;
+}
+.company thead{
+    background-color: #e7e7e7;
+
+}
+.company thead tr th{
+    border-right:1px solid #ccc;
+    height:30px;
+    font-weight: bold;
+    padding-left:20px;
+
+}
+.company tbody tr td{
+    border-right:1px solid #ccc;
+    border-bottom:2px solid #ccc;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left:20px;
+    font-size:14px;
+    font-weight: 200;
+
+}
+#container{
+    overflow: visible;
+    margin-top: 80px;
+    width:85%;
+    margin-left: 220px;
+
+}
+.controls input{
+    padding-left:10px;
+    padding-bottom: 5px;
+    padding-top: 5px;
+    font-size:12px;
+}
+.credits{
+    margin-top: -220px;
+    float:left;
+    margin-left:-100px;
+}
+
+.ctc{
+    margin-left: 600px;
+    margin-top: -300px;
+}
+.dark {
+    background-color: #3f4551;
+    color: #fff;
+    width:150px;
+    padding: 10px 5px 10px 5px;
+
+    border-radius: 0.3125em;
+    -moz-border-radius: 0.3125em;
+    -webkit-border-radius: 0.3125em;
+
+
+}
+.debit{
+    margin-left: 200px;
+    margin-top: 18px;
+}
+
+.emp-search{
+    float: right; 
+    margin-right: 30px;
+}
+.even{
+    float:right;
+    margin-top:-50px;
+}
+
+#form{
+    margin-top: 60px;
+    padding-left: 10px;
+    width: 450px;
+}
+.fr{
+    float:right;
+}
+.grid-12-12{
+    margin-top:-25px;
+}
+#header{
+    position:fixed;
+    top:0;
+    width:200%;
+    height:40px;
+    z-index:30;
+    left:0px;
+    background-color: #2a2e36;
+    padding: 0.625em 0;
+}
+.left-sidebar{
+    position:absolute; 
+    width:180px;
+    left:0px; 
+    top:120px;
+    height:100%;}
+#header h1{
+    color: #d7d7e7;
+    font-family: "Droid Sans", sans-serif;
+    padding-left: 20px;
+    font-size:25px;
+    width:500px;
+    padding-bottom:5px;
+    line-break: auto;
+    line-height:10px;
+    font-weight: 500;
+
+    max-width:500px;
+
+
+    margin-left: 80px;
+    padding-top: 20px;
+
+}
+#header-nav{
+    margin-top:10px;
+    list-style-type: none;
+    display: block;
+    -webkit-margin-before: 1em;
+    -webkit-margin-after: 1em;
+    -webkit-margin-start: 0px;
+    -webkit-margin-end: 0px;
+    -webkit-padding-start: 40px;
+}
+.headline{
+
+    z-index:0;
+    background-color: #9da6bb;
+    width:100%;
+    height:40px;
+
+}
+
+.headline h3{
+    padding-left:45px;
+    padding-top:5px;
+    font-size:20px;
+    color:#ffffff;
+}
+
+#img{
+
+    width:120px;
+
+}
+
+
+.login_info{
+    color:black;
+    margin-top:5px;
+    margin-right:-0px
+}
+.main-headline{
+    background-color:#ddd;
+    height:20px;
+    padding-top:5px;
+    padding-bottom:5px; 
+    padding-left:20px;
+    font-size:18px; 
+    font-family: Times New Roman;
+}
+
+.odd{
+    float:left;
+}
+.page-full-width{
+    margin-top:-35px;
+    padding:0 1.875em;
+}
+.payroll-table{
+    margin-top:20px;
+    margin-left:200px;
+    width:650px;
+    height:320px;
+    border:1px solid #ccc;
+}
+.payroll-table td{
+    border:1px solid #ccc;
+    padding-left: 70px;
+    width:200px;
+    height:100px;
+}
+#previewslip{
+    margin-left: 550px;
+    height:350px;
+    width:400px;
+    margin-top:-400px;
+    border:1px solid #ccc;
+    padding-left: 5px;
+    font-size:12px;
+
+}
+#previewslip em{
+    font-size: 14px;
+    font-stretch: ultra-condensed;
+}
+.button {
+    padding: 0.833em;
+    display: inline-block;
+    text-decoration: none;
+    background-repeat: no-repeat;
+    font-size: 0.75em;
+
+}
+.round {
+    border-radius: 0.3125em;
+    -moz-border-radius: 0.3125em;
+    -webkit-border-radius: 0.3125em;
+}
+.table thead tr th{
+    font-size:16px; 
+    font-weight:bold;
+}
+.table tbody tr td{
+    font-size: 14px;
+    padding-bottom: 10px; padding-top: 10px;
+}
+.salary{
+    margin-left: 40px;
+    margin-top:10px;
+    width:700px;
+}
+.salary thead tr th{
+    font-size: 18px;
+}
+.salary tbody tr td{
+    padding-left: 5px;
+    font-size: 16px;
+    line-height: 30px;
+}
+
+.search{
+    float:right;
+    margin-right:10px;
+    margin-top: -36px;
+}
+
+
+
+.username{
+    font-size: 16px;
+    font-weight: 700;
+}
+.userinput{
+    float:left;
+    text-align: left;
+    padding-top:-5px;
+    margin-top: -10px;
+    margin-left: -50px;
+
+}
+
+
+
+
+
+
+.table{
+
+    -webkit-box-shadow: 0px 1px 3px 0px rgba(0,0,0,.73), 0px 0px 18px 0px rgba(0,0,0,.13);
+    -moz-box-shadow: 0px 1px 3px 0px rgba(0,0,0,.73), 0px 0px 18px 0px rgba(0,0,0,.13);
+    box-shadow: 0px 1px 3px 0px rgba(0,0,0,.73), 0px 0px 18px 0px rgba(0,0,0,.13);
+    padding: 5px;
+    border:1px solid #ccc;
+    margin-bottom: 10px;
+    
+}
+
+.table thead tr th{
+    background-color:#616975;
+    background-image: -webkit-gradient(linear, left top, left bottom, from(rgb(114, 122, 134)),to(rgb(80, 88, 100)));
+    background-image: -webkit-linear-gradient(top, rgb(114, 122, 134), rgb(80, 88, 100));
+    background-image: -moz-linear-gradient(top, rgb(114, 122, 134), rgb(80, 88, 100));
+    background-image: -o-linear-gradient(top, rgb(114, 122, 134), rgb(80, 88, 100));
+    background-image: -ms-linear-gradient(top, rgb(114, 122, 134), rgb(80, 88, 100));
+    background-image: linear-gradient(top, rgb(114, 122, 134), rgb(80, 88, 100));
+    filter: progid:DXImageTransform.Microsoft.gradient(GradientType=0,StartColorStr='#727a86', EndColorStr='#505864');
+    border-bottom: 1px solid #33373d;
+    -webkit-box-shadow: inset 0px 1px 0px 0px #878e98;
+    -moz-box-shadow: inset 0px 1px 0px 0px #878e98;
+    box-shadow: inset 0px 1px 0px 0px #878e98;
+    color:#eee;
+    padding:10px 10px 10px 10px;
+    border-right: 1px solid #999;
+
+
+}
+.table td{
+    color:#666;
+    font-weight: 600px;
+
+    padding-top:5px;
+    padding-left: 10px;
+    padding-right: 5px;
+    padding-bottom: 10px;
+
+
+
+}
+
+
+
+ol, ul{	margin: 1em 0 1em 2em; }
+
+ol ol, ol ul, ul ol, ul ul{ margin-top:0; margin-bottom:0; }
+
+ol li{	list-style:decimal }
+ol li ol li{ list-style:upper-alpha; }
+ol li ol li ol li{ list-style:upper-roman; }
+
+ul li{ list-style:none;} 
+.view{
+    margin-left:50px;
+}
+
+.v-sep{
+    float:right;
+    border-right: 1px solid #3f4551;
+    margin-right: 0.625em;
+    padding-right: 0.625em;
+    display: list-item;
+    text-align: -webkit-match-parent;
+}
+ul#header-nav{
+    margin-left:60px;
+}
+ul#header-nav li ul {
+    
+    list-style-type: none;
+    display:block;
+    text-align: -webkit-match-parent;
+    position: absolute;
+    z-index: 999;
+    margin-top: -2px;
+    margin-right: 200px;
+    font-size: 0.75em;
+    -webkit-margin-before: 0px;
+    -webkit-margin-after: 0px;
+    -webkit-margin-start: 0px;
+    -webkit-margin-end: 0px;
+    -webkit-padding-start: 0px;
+}
+
+ul#header-nav > li {
+    list-style-type: none;
+    float: left;
+
+    margin-right: 0.312em; /* 5/16 */
+    position: relative;
+}
+ul#header-nav li:first-child { margin-left: 0; }
+ul#header-nav li:hover ul { left: 0; /* On hover, we make the submenu visible again */ }	
+/* Persistent hover state, exactly the same style as the inner anchor on hover (.dark:hover) */
+ul#header-nav li:hover a {
+    list-style-type: none;
+    background-color: #5d6677;
+    color: white;
+}
+ul#header-nav li ul {
+    list-style-type: none;
+    margin-left: 0px;
+    width:125px;
+    position: absolute;
+    z-index: 999;
+    margin-top: 10px;
+    left: -9999px;
+}
+.header-nav-child {
+    color: white;
+    font-size: 12px;
+    padding: 0.833em 0 0.833em 3em;
+    border-top: 1px solid #6a7282;
+    background: #5d6677  no-repeat center;
+    display: block;
+    width: 100%;
+    white-space: nowrap;
+}
+
+.noexist{
+    margin-left:20px;
+
+    color:#999;
+}
+table, tr, th, td{
+    background: transparent;
+	border: 0;
+	margin: 0;
+	padding: 0;
+	vertical-align: baseline;
+            border: 1px solid #e7e7e7;
+
+    
+}
+table{
+        
+        border-collapse: collapse;
+	border-spacing: 0;
+        border: 3px solid #e7e7e7;
+	margin: 0 1px 24px 20px;
+	text-align: left;
+	width: 99%;
+}
+
+tr th, thead th{
+    color: #888;
+	font-size: 12px;
+	font-weight: bold;
+	line-height: 18px;
+	padding: 9px 4px;
+}
+
+tr td{
+    border-top: 1px solid #e7e7e7;
+	padding: 6px 4px;
+        line-height: 1.7em;
+}
+tr.odd td{
+    background: #f2f7fc;
+}
+
+.entry-content{
+    clear: both;
+	padding: 10px 0 0 0;
+}
+
+.entry-content fieldset {
+	border: 1px solid #e7e7e7;
+	margin: 0 0 2px 0;
+	padding: 24px;
+}
+.entry-content fieldset legend {
+	background: #fff;
+	color: #000;
+	font-weight: bold;
+	padding: 0 24px;
+}
+.entry-content input {
+	margin: 0 0 24px 0;
+}
+.entry-content input.file,
+.entry-content input.button {
+	margin-right: 24px;
+}
+.entry-content label {
+	color: #888;
+	font-size: 12px;
+}
+.entry-content select {
+	margin: 0 0 24px 0;
+}
+.entry-content sup,
+.entry-content sub {
+	font-size: 10px;
+}
+.entry-content blockquote.left {
+	float: left;
+	margin-left: 0;
+	margin-right: 24px;
+	text-align: right;
+	width: 33%;
+}
+.entry-content blockquote.right {
+	float: right;
+	margin-left: 24px;
+	margin-right: 0;
+	text-align: left;
+	width: 33%;
+}
+
+.wp-table-reloaded td {
+    color:#3d3d3d;
+}
+
+.column-1{
+   width:120px;
+   
+}
+
+.nav-logo img{
+    margin-left:-30px;
+   width:250px;
+   height: 60px;
+}
+
+.column-left{
+width:500px;
+}
